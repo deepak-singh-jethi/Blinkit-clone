@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 ::-webkit-scrollbar {
     display: none;
@@ -42,6 +43,11 @@
 input::placeholder{
     outline: none;
 }
+/* hero section */
+.hero{
+    width: 87vw !important;
+    margin-inline:auto ;
+}
 
 /* scrollable div */
 .scrollable-div{
@@ -56,7 +62,7 @@ input::placeholder{
 
 }
 .scrollable-div-item{
-    width: 100%;
+  width: 100%;
    margin-inline: auto;
  white-space: nowrap;
 }
@@ -232,6 +238,7 @@ th>p {
 
 .table-2 {
     flex: 4;
+    margin: 10px;
 }
 
 .table-1 {
