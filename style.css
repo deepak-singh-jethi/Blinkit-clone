@@ -7,6 +7,9 @@
 ::-webkit-scrollbar {
     display: none;
 }
+a{
+    text-decoration: none !important;
+}
 
 /* header */
 .header{
@@ -236,12 +239,14 @@ td {
     padding: 3px 20px;
     color: #666666;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
 }
 
 tr>th {
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 600;
 }
 
 th>p {
@@ -250,8 +255,8 @@ th>p {
 }
 
 .table-2 {
-    flex: 4;
-    margin: 10px;
+    flex: 2;
+   
 }
 
 .table-1 {
@@ -368,6 +373,17 @@ th>p {
         font-size: 7px;
         padding: 1px;
     }
+    .table-2{
+        margin-top: 20px;
+    }
+   
+        td,
+        th,
+        thead,
+        tbody {
+            font-size: 12px !important;
+            line-height: 0.9rem;
+        }
 }
 
 
@@ -477,7 +493,7 @@ th>p {
      }
 
      td,th,thead,tbody{
-        font-size: 12px !important;
+        font-size: 9px !important;
      }
      .table-2{
         margin-top: 25px;
