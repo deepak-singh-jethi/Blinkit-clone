@@ -437,4 +437,23 @@ th>p {
     .playstore{
         width: 100px;
     }
+
+    .hero {
+            width: 95vw !important;
+            margin-inline: auto;
+        }
+
+     .scrollable-div{
+           width: 92vw !important;
+     }
+
+     .all-caltegories{
+        width: 92vw !important;
+     }
+     .my-footer{
+         width: 92vw !important;
+     }
+        
+
+
 }
