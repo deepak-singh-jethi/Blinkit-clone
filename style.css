@@ -431,11 +431,17 @@ th>p {
     }
    .row-2-col-1 {
          width: 100vw;
-         font-size: 10px;
+         font-size: 10px !;
         margin-bottom: 20px;
     }
+
+    .row-2-col-3{
+        margin: 30px !important;
+    }
+
     .playstore{
         width: 100px;
+        font-size: 12px !important; 
     }
 
     .hero {
@@ -453,7 +459,15 @@ th>p {
      .my-footer{
          width: 92vw !important;
      }
+
+     td,th,thead,tbody{
+        font-size: 12px !important;
+     }
+     .table-2{
+        margin-top: 25px;
+     }
         
 
 
 }
+
