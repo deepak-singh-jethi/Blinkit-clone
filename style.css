@@ -366,6 +366,9 @@ th>p {
     input::placeholder{
         font-size: 8px !important;
     }
+    .search-bar{
+        margin-top: 8px !important;
+    }
 
     .location>h3 {
         font-size: 10px !important;
