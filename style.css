@@ -40,9 +40,16 @@
     flex: 1.2;
 }
 
-input::placeholder{
-    outline: none;
+.search-bar{
+    border-radius: 10px !important;
 }
+
+.form-control:focus {
+    box-shadow: none !important;
+    /* Remove the box-shadow on focus */
+}
+
+
 /* hero section */
 .hero{
     width: 87vw !important;
@@ -70,6 +77,12 @@ input::placeholder{
     width: 30% !important;
     display: inline-block;
     margin-right: 10px;
+}
+.all-caltegories>div>div {
+   transition: all 0.8s ease;
+}
+.all-caltegories>div>div:hover{
+    scale: 0.9;
 }
 
 /*  categories - div*/
