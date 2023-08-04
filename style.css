@@ -110,6 +110,11 @@ a{
    display: inline-block;
    width: 15% !important;
    margin-right: 10px !important;
+   transition: all 1s ease;
+}
+.my-card:hover{
+    
+ scale: 0.9;
 }
 
 .time-taken {
